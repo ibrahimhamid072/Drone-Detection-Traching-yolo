@@ -18,12 +18,15 @@ An advanced Computer Vision system developed to detect and track Unmanned Aerial
 * Robust Dataset: Trained on a comprehensive dataset from Roboflow, consisting of over 6,000 images, ensuring the model generalizes well across different backgrounds and distances.
 * High-Performance Training: Leveraged Kaggle's Cloud GPUs for efficient model convergence and hyperparameter tuning.
 
+
 ## 📊 Dataset & Training Details
 The model's robustness is built upon a high-quality data pipeline:
 * Source: Roboflow Universe.
 * Volume: 6,000+ Annotated Images.
 * Model Version: YOLOv11 (Ultralytics).
 * Objective: Minimized false positives while maximizing detection recall for small, fast-moving aerial objects.
+
+
 
 ## 🛠️ Tech Stack
 * Deep Learning Framework: PyTorch
@@ -32,6 +35,17 @@ The model's robustness is built upon a high-quality data pipeline:
 * Data Management: Roboflow
 * Development Platform: Kaggle Notebooks
 * Video Processing: OpenCV
+
+
+
+## 🔮 Future Roadmap & Planned Improvements
+*Currently working on enhancing the system for single-target stability:*
+
+### Solving ID Switching (In Progress) 🚧
+Standard tracking algorithms can suffer from "ID Switching" due to temporary confidence drops.
+My planned solution to robustify the tracker includes:
+- Single-Target Logic: Implementing a post-processing layer that filters detections based on Euclidean Distance from the previous frame.
+- Trajectory Locking: Prioritizing the object closest to the predicted Kalman trajectory to maintain a consistent ID (e.g., locking "ID 1") and ignoring spurious false positives.
 
 ## 👨‍💻 Author
 Ibrahim
