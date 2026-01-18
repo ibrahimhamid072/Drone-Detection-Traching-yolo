@@ -49,4 +49,5 @@ My planned solution to robustify the tracker includes:
 
 ## 👨‍💻 Author
 Ibrahim
-Electrical and Electronics Engineering Student | computre vision 
+Final Year Electrical & Electronics Engineering Student
+Passionate about Computer Vision & Autonomous Systems
