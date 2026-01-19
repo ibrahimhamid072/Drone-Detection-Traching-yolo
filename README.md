@@ -10,6 +10,7 @@ An advanced Computer Vision system developed to detect and track Unmanned Aerial
 ## 🎥 Demo In Action
 > Real-time tracking results showing ID assignment and trajectory.
 > ![IMG_00051-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/685ca8a4-ce25-4f2a-8bb7-d45cdba70d39)
+< img width="204" height="85" alt="image" src="https://github.com/user-attachments/assets/78521e44-23d5-4f73-bba8-e1f6ee62baf2" />
 
 
 ## 🎯 Key Features
